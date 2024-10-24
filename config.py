@@ -9,6 +9,9 @@ RMQ_PASSWORD = "guest"
 
 MQ_EXCHANGE = ""
 MQ_ROUTING_KEY = "news"
+MQ_EMAIL_UPDATES_EXCHANGE_NAME = "email_updates"
+MQ_QUEUE_NAME_KYC_EMAIL_UPDATES = "kyc_email_updates"
+MQ_QUEUE_NAME_NEWSLETTER_EMAIL_UPDATES = "newsletter_email_updates"
 
 connection_params = pika.ConnectionParameters(
     host=RMQ_HOST,
